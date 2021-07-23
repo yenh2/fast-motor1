@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+}
+img {
+    width: 100%;
+    height: 380px;
+}
+ul {
+    margin: 5px 0;
+    margin-top: -80px;
+}
+li {
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    cursor: pointer;    
+    margin-left: 200px;
+    display: inline-block;
+}
+.li-selected {
+    background-color: #ffffff;
+}
+.li-disabled {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    cursor: none;    
+}
+li:hover {
+    background-color: #ffd044;
+}
+.li-disabled:hover {
+    background-color: #ffffff;
+    color: #777;
+}
+select {
+    width: 10%;
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+form{
+    margin-top: 100px;
+    margin-left: 5mm;
+    float: left;
+    width: 50%;
+}
+form p, option{
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    top: 1000px;
+    background: rgb(243, 35, 35);   
+    color: white;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0;
+    
+}
+.pie-de-página img{
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-left: 10mm;
+    margin-top: -8mm;
+}
+.pie-de-página{
+    margin-bottom: 0px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.pie-de-página span{
+    text-align: center;
+}
+.container form {
+    text-align: center;
+}
